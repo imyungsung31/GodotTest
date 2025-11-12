@@ -1,4 +1,7 @@
-AnimationPlayer
+Timer
 CollisionShape2D
+Area2D
+AnimatedSprite2D
+AnimationPlayer
 Sprite2D
 AnimatableBody2D

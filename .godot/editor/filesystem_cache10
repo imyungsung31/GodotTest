@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1762844550
+::res://::1762930434
 icon.svg::CompressedTexture2D::7364009450159589251::1762814785::1762833104::1::::<><><>0<>0<>93b4e4415d78d0d4677992aade09e5de<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
 ::res://Assets/::1762836148
 LICENSE & CREDITS.txt::TextFile::-1::1762814842::0::1::::<><><>0<>0<><>::
@@ -275,9 +275,13 @@ platforms.png::CompressedTexture2D::29651128638952986::1762814842::1762833104::1
 slime_green.png::CompressedTexture2D::3657442843558567137::1762814842::1762833104::1::::<><><>0<>0<>d0de3e6cab45319ec8e32a55d0a21b89<>res://.godot/imported/slime_green.png-82ab2b7a3783e85117231b17359f2c2e.ctex::
 slime_purple.png::CompressedTexture2D::3525797892444607197::1762814842::1762833104::1::::<><><>0<>0<>102b38544aeb7b4bfbc9e2a0a725ca73<>res://.godot/imported/slime_purple.png-43dfa43f13125aefcc7affc07742c2cf.ctex::
 world_tileset.png::CompressedTexture2D::4708921817492613354::1762814842::1762833104::1::::<><><>0<>0<>8c1f5eb8b3339822bc319fc435190d7f<>res://.godot/imported/world_tileset.png-7d0351459d02dec97d7c98fe9a06c85b.ctex::
-::res://Scenes/::1762842114
-game.tscn::PackedScene::1526895446645405419::1762842114::0::1::::<><><>0<>0<><>::uid://btud0efab8tjf::::res://Scenes/Player.tscn<>uid://cgedilea4eu47::::res://Assets/kenney_pixel-platformer/Tilemap/tilemap-characters_packed.png<>uid://b8dbiwbb0xc3c::::res://Assets/sprites/world_tileset.png<>uid://cykfmd7pe0m4m::::res://Assets/kenney_pixel-platformer/Tilemap/tilemap_packed.png<>uid://bybsikrxblfok::::res://Scenes/platform.tscn
+::res://Scenes/::1762930412
+coin.tscn::PackedScene::6045427628748388366::1762926115::0::1::::<><><>0<>0<><>::uid://bn6pjjuw2mrkx::::res://Assets/sprites/coin.png<>uid://dl2bl0h0ckmsk::::res://Scripts/coin.gd
+game.tscn::PackedScene::1526895446645405419::1762930412::0::1::::<><><>0<>0<><>::uid://btud0efab8tjf::::res://Scenes/Player.tscn<>uid://cgedilea4eu47::::res://Assets/kenney_pixel-platformer/Tilemap/tilemap-characters_packed.png<>uid://b8dbiwbb0xc3c::::res://Assets/sprites/world_tileset.png<>uid://cykfmd7pe0m4m::::res://Assets/kenney_pixel-platformer/Tilemap/tilemap_packed.png<>uid://bybsikrxblfok::::res://Scenes/platform.tscn<>uid://csepksejq0nhe::::res://Scenes/coin.tscn<>uid://buajk3lhhjc6l::::res://Scenes/killzone.tscn
+killzone.tscn::PackedScene::3790763355302107913::1762930052::0::1::::<><><>0<>0<><>::uid://buc1gx31ojij4::::res://Scripts/killzone.gd
 platform.tscn::PackedScene::4074125053522939778::1762842012::0::1::::<><><>0<>0<><>::uid://oml5k3lnl35::::res://Assets/sprites/platforms.png
-Player.tscn::PackedScene::3761523281542911963::1762823318::0::1::::<><><>0<>0<><>::uid://0c70xpqouck::::res://Scripts/player.gd<>uid://bgirtjw3vp7r5::::res://Assets/sprites/knight.png
-::res://Scripts/::1762823287
+Player.tscn::PackedScene::3761523281542911963::1762926041::0::1::::<><><>0<>0<><>::uid://0c70xpqouck::::res://Scripts/player.gd<>uid://bgirtjw3vp7r5::::res://Assets/sprites/knight.png
+::res://Scripts/::1762930009
+coin.gd::GDScript::7987159216219343982::1762926115::0::1::::<>Area2D<><>0<>0<><>::
+killzone.gd::GDScript::3795916921029195735::1762930009::0::1::::<>Area2D<><>0<>0<><>::
 player.gd::GDScript::51789372559725358::1762826169::0::1::::<>CharacterBody2D<><>0<>0<><>::
