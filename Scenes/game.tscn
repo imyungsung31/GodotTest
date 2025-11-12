@@ -4,9 +4,9 @@
 [ext_resource type="Texture2D" uid="uid://cgedilea4eu47" path="res://Assets/kenney_pixel-platformer/Tilemap/tilemap-characters_packed.png" id="2_3dryh"]
 [ext_resource type="Texture2D" uid="uid://b8dbiwbb0xc3c" path="res://Assets/sprites/world_tileset.png" id="2_qxrlw"]
 [ext_resource type="Texture2D" uid="uid://cykfmd7pe0m4m" path="res://Assets/kenney_pixel-platformer/Tilemap/tilemap_packed.png" id="3_wowpa"]
-[ext_resource type="PackedScene" uid="uid://bybsikrxblfok" path="res://Scenes/platform.tscn" id="5_wowpa"]
-[ext_resource type="PackedScene" uid="uid://csepksejq0nhe" path="res://Scenes/coin.tscn" id="6_i6g32"]
-[ext_resource type="PackedScene" uid="uid://buajk3lhhjc6l" path="res://Scenes/killzone.tscn" id="7_1l0tm"]
+[ext_resource type="PackedScene" path="res://Scenes/platform.tscn" id="5_wowpa"]
+[ext_resource type="PackedScene" path="res://Scenes/coin.tscn" id="6_i6g32"]
+[ext_resource type="PackedScene" path="res://Scenes/killzone.tscn" id="7_1l0tm"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_wrm1d"]
 texture = ExtResource("2_qxrlw")
