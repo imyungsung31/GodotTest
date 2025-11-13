@@ -1,8 +1,7 @@
-# Godot 4+ specific ignores
 .godot/
+.godot/editor/
 /android/
 .editor_metadata/
 local_editor_settings.tres
 *.translation
 *.import/
-.godot/editor/
