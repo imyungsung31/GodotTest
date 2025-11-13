@@ -480,7 +480,7 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id="Animation_wowpa"]
 resource_name = "move"
-length = 2.0
+length = 3.0
 loop_mode = 2
 tracks/0/type = "value"
 tracks/0/imported = false
@@ -489,10 +489,10 @@ tracks/0/path = NodePath(".:position")
 tracks/0/interp = 1
 tracks/0/loop_wrap = true
 tracks/0/keys = {
-"times": PackedFloat32Array(0, 2),
+"times": PackedFloat32Array(0, 2.9666667),
 "transitions": PackedFloat32Array(1, 1),
 "update": 0,
-"values": [Vector2(394, -38), Vector2(474, -38)]
+"values": [Vector2(350, -38), Vector2(474, -38)]
 }
 
 [sub_resource type="AnimationLibrary" id="AnimationLibrary_1l0tm"]
