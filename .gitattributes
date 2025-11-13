@@ -1,2 +1,8 @@
 # Normalize EOL for all files that Git considers text files.
 * text=auto eol=lf
+*.tscn merge=godot
+*.tres merge=godot
+*.import merge=godot
+
+# project.godot는 개인 설정 많음 → 항상 내 버전 유지 (충돌 무시)
+project.godot merge=ours
