@@ -533,6 +533,21 @@ position = Vector2(52, -21)
 [node name="Platform" parent="Platform/Platform/Platform" instance=ExtResource("5_wowpa")]
 position = Vector2(51, -16)
 
+[node name="Platform" parent="Platform/Platform/Platform/Platform" instance=ExtResource("5_wowpa")]
+position = Vector2(49, -25)
+
+[node name="Platform" parent="Platform/Platform/Platform/Platform/Platform" instance=ExtResource("5_wowpa")]
+position = Vector2(55, -22)
+
+[node name="Platform" parent="Platform/Platform/Platform/Platform/Platform/Platform" instance=ExtResource("5_wowpa")]
+position = Vector2(51, -20)
+
+[node name="Platform" parent="Platform/Platform/Platform/Platform/Platform/Platform/Platform" instance=ExtResource("5_wowpa")]
+position = Vector2(54, -20)
+
+[node name="Platform" parent="Platform/Platform/Platform/Platform/Platform/Platform/Platform/Platform" instance=ExtResource("5_wowpa")]
+position = Vector2(-442, 123)
+
 [node name="Platform2" parent="." instance=ExtResource("5_wowpa")]
 position = Vector2(394, -38)
 
