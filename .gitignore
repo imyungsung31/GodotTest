@@ -5,3 +5,4 @@
 local_editor_settings.tres
 *.translation
 *.import/
+.godot/editor/
